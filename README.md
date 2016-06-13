@@ -3,8 +3,8 @@ Deletes specific filetypes from a slack channel to create space
 
 # Usage
 First set access token and _domain variables *THIS MUST BE DONE OR IT WONT WORK* <br>
-You're access token also must have the correct permissions or else the deletion will fail. <br>
-Then add or cases to line 49 for all the file types you wanted deleted. <br>
+You're access token also must have the correct permissions or else the deletion will fail. <br> <br>
+Then add `or` cases to line 49 for all the file types you wanted deleted. <br>
 Finally, run `python RemoveSlackHistory.py`
 
 # Debugging
